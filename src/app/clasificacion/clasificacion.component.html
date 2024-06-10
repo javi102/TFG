@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="image-container">
+          <img src="../../assets/juegos/superliga.jpg" class="image">
+        </div>
+        <div class="leaderboard-container">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th>V</th>
+                <th>D</th>
+                <th>WR%</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let team of teams; let i = index" [class.highlight]="i === 0">
+                <td>{{ i + 1 }}</td>
+                <td>
+                  <img [src]="team.logo" alt="{{ team.name }} logo" class="team-logo" />
+                  {{ team.name }}
+                </td>
+                <td>{{ team.victories }}</td>
+                <td>{{ team.defeats }}</td>
+                <td>{{ team.winRate }}%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+</body>
+</html>

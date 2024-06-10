@@ -1,0 +1,220 @@
+body {
+  background-image: url(../../assets/fotosgenerales/periodico.jpg);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  height: 304vh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  background-color: #000000;
+  width: 206vh;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+ul {
+  justify-content: center;
+}
+
+nav ul li a:hover {
+  background-color: #4e4747;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px; 
+  overflow: hidden;
+  background-color: black; 
+}
+
+.carousel-image {
+  width: auto;
+  height: 100%;
+  min-width: 100%; 
+  object-fit: cover; 
+}
+
+.carousel-image-container span {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.175); 
+  padding: 5px 10px; 
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.news-container {
+  display: flex;
+  margin-top: 20px; 
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.news {
+  width: 450px; 
+  background-color: #f0f0f0; 
+  box-sizing: border-box;
+  margin-right: 10px; 
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+article {
+  font-size: 17px;
+}
+
+.news-image {
+  height: 140px;
+  display: block; 
+  margin: 0 auto; 
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls button {
+  margin-bottom: 5px;
+  padding: 10px;
+  color: white;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #555;
+}
+
+.news article {
+  margin: 0;
+}
+
+.news h1 {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+}
+
+.news p {
+  font-size: 1em;
+  margin-bottom: 16px;
+}
+
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news ul li {
+  font-size: 0.875em;
+  margin-bottom: 4px;
+}
+
+
+.image1{
+  height: 200px;
+  width: 250px;
+  position: relative;
+  left: 73px;
+}
+
+
+
+.image2{
+  height: 200px;
+  width: 230px;
+  position: relative;
+  left: 73px;
+}
+
+.image3{
+  height: 200px;
+  width: 290px;
+  position: relative;
+  left: 50px;
+}
+
+.image4{
+  height: 200px;
+  width: 290px;
+  position: relative;
+  left: 50px;
+}
+
+.image5{
+  height: 200px;
+  width: 290px;
+  position: relative;
+  left: 50px;
+}
+
+.image6{
+  height: 200px;
+  width: 290px;
+  position: relative;
+  left: 50px;
+}
+
+.image7{
+  height: 240px;
+  width: 330px;
+  position: relative;
+  left: 20px;
+}
+
+.image8{
+  height: 240px;
+  width: 360px;
+  position: relative;
+  left: 20px;
+}
+
+
+.image9{
+  height: 240px;
+  width: 360px;
+  position: relative;
+  left: 20px;
+}

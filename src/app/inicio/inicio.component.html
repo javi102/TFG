@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="carousel">
+          <div class="carousel-image-container">
+            <img [src]="imagenes[currentImageIndex]" class="carousel-image">
+            <span>{{ date | date:'short' }}</span>
+            <div class="opacity"></div>
+            
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a routerLink="/ia">IA</a></li>
+            <li><a routerLink="/eurovision">EUROVISIÓN</a></li>
+            <li><a routerLink="/videojuegos">VIDEOJUEGOS</a></li>
+            <li><a routerLink="/guerra">INTERNACIONAL</a></li>
+            <li><a routerLink="/politica">POLÍTICA</a></li>
+            <li><a routerLink="/elecciones">9J</a></li>
+            <li><a routerLink="/educacion">ESTUDIOS</a></li>
+          </ul>
+        </nav>
+
+        
+      </header>
+      
+      
+      <div class="news-container">
+        <div class="news">
+          <article>
+            <h1>PSOE y Vox rechazan la cuestión de confianza de José Luis Sanz: 30 días para presentar una moción de censura en Sevilla</h1>
+            <p>El gobierno de Jose Luis Sanz alcalde de Sevilla ha perdido hoy la cuestion de confianza debido a que no tenia mayoria para aprobar unos presupuestos para la ciudad, los grupos de la oposicion tienen 1 mes para presentar una mocion de censura.</p>
+            <img src="../../assets/fotosgenerales/Sanz.jpeg" class="image1">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Tomares (Sevilla) inaugura este sábado la Plaza Hermanos Costaleros con motivo del 450 aniversario de la Hermandad</h1>
+            <p>El alcalde de Tomares (Sevilla), José María Soriano, inaugura este sábado, 8 de junio, la Plaza Hermanos Costaleros con motivo del 450 Aniversario de la Hermandad Sacramental.el colectivo Hermanos Costaleros cumple en 2024 44 años de historia, "casi medio siglo de trabajo, fe y devoción" bajo los titulares de la Hermandad Sacramental, según apunta el Consistorio.</p>
+            <img src="../../assets/fotosgenerales/sacramento.jpg" class="image2">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Lluvia para rato: una vaguada y entrada de norte prolongarán las tormentas en España</h1>
+            <p>El lunes 10 la previsión marca que podrían darse en Extremadura, Madrid, Castilla-La Mancha, Andalucía y en el interior de la C. Valenciana, Murcia y norte de Aragón y Cataluña. El martes, podrían formarse en las mismas regiones pero aumentando la inestabilidad en el este peninsular.</p>
+            <img src="../../assets/fotosgenerales/lluvia.jpg" class="image3">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>La Fiscalía Europea ve indicios de malversación, tráfico de influencias y prevaricación en el 'caso Begoña Gómez'</h1>
+            <p>El procedimiento abierto por la Fiscalía Europea permanece bajo secreto, pero afecta por completo a Begoña Gómez, ya que cuenta con la condición de «denunciada» en la causa.La esposa del presidente ya tiene la condición procesal de imputada y la han llamado a declarar el próximo 5 de julio por los delitos de tráfico de influencias y corrupción en el sector privado.</p>
+            <img src="../../assets/fotosgenerales/begoña.jpg" class="image4">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Armengol acusa al PP de montar un "bulo" con el caso Koldo y pide votar en masa para descalificar "esa forma de hacer política"</h1>
+            <p>Francina Armengol en su tercera comparecencia ante una comisión de investigación sobre el 'caso Koldo', en esta ocasión en el Senado, ha reprochado a los partidos de la oposición -PP, Vox y UPN- de tratar de "montar un bulo" con el 'caso Koldo' con la intención de "inhabilitarla" como presidenta del Congreso.</p>
+            <img src="../../assets/fotosgenerales/armengol.jpg" class="image5">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Qué dicen las encuestas de las elecciones europeas 2024 en España.</h1>
+            <p>La ultima encuesta fue publicada por el CIS y para sorpresa de nadie el PSOE ganaría las elecciones europeas.que sería la fuerza política que ganaría en España, con unos votos que irían entre el 31,6% y el 33,2%.Le seguirían el PP (28,3% - 30,5%), Vox (9,9% - 11%), Sumar (5,4% - 7,1%), Se acabó la fiesta (4,9% - 5,7%), Ahora Repúblicas (3,7% - 4,1%) y Podemos (3,6% - 3,9%).</p>
+            <img src="../../assets/fotosgenerales/europa.jpg" class="image6">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Unanimidad entre progresistas y conservadores del CGPJ para responder a los ataques de Pedro Sánchez</h1>
+            <p>La Comisión Permanente del CGPJ celebrará una reunión extraordinaria el próximo lunes 10 para respaldar a la carrera judicial tras los señalamientos del presidente del Gobierno, Pedro Sánchez. La decisión de salir en defensa del juez que acaba de imputar a Begoña Gómez se acordó de forma unánime entre los siete vocales progresistas y conservadores que integran esta comisión.</p>
+            <img src="../../assets/fotosgenerales/consejoPoderJudicial.jpg" class="image7">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Von der Leyen recalibra su acercamiento a la  derecha y vuelve a mirar a Los Verdes</h1>
+            <p>La candidata principal del PP europeo, que lleva meses coqueteando con Meloni y su grupo ultra, confía en que los resultados de ecologistas y liberales sean mejores de lo esperado y permitan reeditar una gran coalición moderada en la UE</p>
+            <img src="../../assets/fotosgenerales/vonder.jpg" class="image8">
+          </article>
+        </div>
+        <div class="news">
+          <article>
+            <h1>Th3Antonio y un soñado debut en LEC: "Cada día soy mejor, si me preguntas mañana, te diré que soy mejor que hoy"</h1>
+            <p>Tras nueve años compitiendo en la élite nacional y una gran riestra de títulos a su espalda, el toplaner español por fin gozará de su oportunidad en LEC, y no podía ser con otro equipo que no fuese GiantX.</p>
+            <img src="../../assets/fotosgenerales/th3.jpg" class="image9">
+          </article>
+        </div>
+      </div>
+
+</body>
+</html>

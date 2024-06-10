@@ -1,0 +1,59 @@
+body {
+  background-image: url('../../assets//fotosgenerales/fondoIA.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 184vh;
+  margin: 0; 
+  padding: 0; 
+}
+
+.news-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: auto;
+  padding: 20px; 
+}
+
+.news-container h2 {
+  text-align: center;
+  color: #00bcd4;
+}
+
+.article {
+  border-bottom: 1px solid #444;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.article:hover {
+  background-color: #333;
+}
+
+.article h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ff5722;
+}
+
+.article p {
+  margin: 0.5px 0;
+  color: #cfd8dc;
+}
+
+.article a {
+  color: #00bcd4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.article a:hover {
+  color: #ff5722;
+}
+
+h3 {
+  text-align: center;
+}

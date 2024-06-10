@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="image-table-container">
+    <div class="image-container">
+      <img src="../../assets/fotosgenerales/chanel-modified.jpg" class="image">
+    </div>
+    <div class="table-container">
+      <div class="tables1">
+        <table>
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Pais</th>
+              <th>Puntos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let result of resultados.slice(0, 13); let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>
+                <img [src]="result.bandera" alt="{{ result.pais }} bandera" class="flag"> {{ result.pais }}
+              </td>
+              <td>{{ result.puntos }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Pais</th>
+              <th>Puntos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let result of resultados.slice(13); let i = index">
+              <td>{{ i + 14 }}</td>
+              <td>
+                <img [src]="result.bandera" alt="{{ result.pais }} bandera" class="flag"> {{ result.pais }}
+              </td>
+              <td>{{ result.puntos }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="container">
+        <div class="news-article1">
+          <h2>CASI CHANELAZO. ESPAÑA CERCA DE GANAR EUROVISION 2022</h2>
+          <p>Chanel no tuvo mucho apoyo de su pais representante, España debido a que la gente quería mandar otro
+            artista y llegaron incluso amenazarla de muerte entre otras cosas. </p>
+          <p>Se podría decir que nos dejó a todos boqui abiertos despues de su pedazo de actuación y de su merecida o
+            injusticia para muchos posicion TOP 3.</p>
+          <div>
+          </div>
+            <audio controls>
+              <source src="../../assets/canciones/Chanel - SloMo .mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-table-container2">
+    <div class="image-container2">
+      <img src="../../assets/fotosgenerales/blanca.jpg" class="image2">
+    </div>
+    <div class="table-container2">
+      <div class="tables2">
+        <table>
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Pais</th>
+              <th>Puntos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let result of resultados2.slice(0, 13); let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>
+                <img [src]="result.bandera" alt="{{ result.pais }} bandera" class="flag"> {{ result.pais }}
+              </td>
+              <td>{{ result.puntos }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Pais</th>
+              <th>Puntos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let result of resultados2.slice(13); let i = index">
+              <td>{{ i + 14 }}</td>
+              <td>
+                <img [src]="result.bandera" alt="{{ result.pais }} bandera" class="flag"> {{ result.pais }}
+              </td>
+              <td>{{ result.puntos }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="news-article2">
+          <h2>EUROVISION 2023, CON BLANCA PALOMA VOLAMOS HACIA ABAJO. 〽</h2>
+          <p>Blanca paloma tenia que defender el papelón de channel en Eurovisión 2022 que nos dejó a las puertas de un
+            top 2. </p>
+          <p>Sin embargo la cancion "EAEA": "la canción presenta la celebración del poder y la fuerza de los ancestros
+            femeninos." No pareció gustarles a los espectadores y jurados y quedamos en el top 17.</p>
+          <div>
+            <audio controls>
+              <source src="../../assets/canciones/BLANCA PALOMA - EAEA .mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-table-container3">
+    <div class="image-container3">
+      <img src="../../assets/fotosgenerales/nebulosa-modified.jpg" class="image3">
+    </div>
+    <div class="table-container3">
+      <div class="tables3">
+        <table>
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Pais</th>
+              <th>Puntos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let result of resultados3.slice(0, 13); let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>
+                <img [src]="result.bandera" alt="{{ result.pais }} bandera" class="flag"> {{ result.pais }}
+              </td>
+              <td>{{ result.puntos }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Pais</th>
+              <th>Puntos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let result of resultados3.slice(13); let i = index">
+              <td>{{ i + 14 }}</td>
+              <td>
+                <img [src]="result.bandera" alt="{{ result.pais }} bandera" class="flag"> {{ result.pais }}
+              </td>
+              <td>{{ result.puntos }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="news-article3">
+          <h2>EUROVISION 2024, BATACAZO AL PUESTO 22. 〽</h2>
+          <p>Nebulossa no consiguió con su canción polemica "Zorra" convencer a los eurofans y mucho menos al jurado y
+            espectadores. </p>
+          <p>Volvemos a quedar entre los ultimos tras un fiasco muy gordo, España SOLO a ganado 1 vez. Segun las
+            declaraciones de la artista se esperaban un resultado mas positivo y no uno tan negativo.</p>
+          <audio controls>
+            <source src="../../assets/canciones/Nebulossa - ZORRA  .mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

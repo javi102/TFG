@@ -1,0 +1,71 @@
+body {
+  background-image: url('../../assets/fotosgenerales/educacion.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 199vh;
+  margin: 0; 
+  padding: 0; 
+}
+
+.news-container {
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+  padding: 20px; 
+}
+
+.news-container {
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+  padding: 20px; 
+}
+
+.news-container h2 {
+  text-align: center;
+  color: #4CAF50;
+  font-family: 'Arial', sans-serif;
+}
+
+.article {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.article:hover {
+  background-color: #f0f0f0;
+}
+
+.article h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #4CAF50;
+  font-family: 'Arial', sans-serif;
+}
+
+.article p {
+  margin: 5px 0;
+  color: #757575;
+}
+
+.article a {
+  color: #4CAF50;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.article a:hover {
+  color: #388E3C;
+}
+
+h3 {
+  text-align: center;
+}

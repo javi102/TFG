@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  height: 165vh;
+  background-image: url('../../assets/fotosgenerales/politica.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.news-container {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.news-container h2 {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.article {
+  border-bottom: 1px solid #34495e;
+  padding: 20px 0;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.article:hover {
+  background-color: #34495e;
+  transform: scale(1.02);
+}
+
+.article h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.75rem;
+  color: #1abc9c;
+}
+
+.article p {
+  margin: 0;
+  color: #bdc3c7;
+  line-height: 1.6;
+}
+
+.article a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.article a:hover {
+  color: #1abc9c;
+}
+
+h3 {
+  text-align: center;
+  color: #ecf0f1;
+}
